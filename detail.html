@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SAMURAIホームのコーポレートサイトです">
+    <title>SAMURAIホーム</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <a href="index.html"><img src="image/logo-button.png"></a>
+        </div>
+        <div id="nav-pc">
+        <nav>
+            <ul>
+                <li><a href="index.html#section1">SAMURAIホームの家づくり</a></li>
+                <li><a href="index.html#section2">施工実績</a></li>
+                <li><a href="index.html#section3">お知らせ</a></li>
+                <li><a href="index.html#section4">会社概要</a></li>
+                <li><a href="index.html#section5">お問い合わせ</a></li>
+                <img src="image/Mail outline.png">
+            </ul>
+        </nav>
+        </div>
+
+        <!-- スマートフォン用ハンバーガーメニュー -->
+       <img id="menu-sp" src="image/ハンバーガーメニュー.png" alt="ナビゲーションを開く" onclick="document.getElementById('nav-sp').style.display = 'block'">
+       <nav id="nav-sp">
+        <ul>
+          <li>
+            <img id="close" src="image/とじるボタン.png" alt="ナビゲーションを閉じる" onclick="document.getElementById('nav-sp').style.display = 'none'"></li>
+          <li><a class="menu" href="index.html#section1" onclick="document.getElementById('nav-sp').style.display = 'none'">SAMURAIホームの家づくり</a></li>
+          <li><a class="menu" href="index.html#section2" onclick="document.getElementById('nav-sp').style.display = 'none'">施工実績</a></li>
+          <li><a class="menu" href="index.html#section3" onclick="document.getElementById('nav-sp').style.display = 'none'">お知らせ</a></li>
+          <li><a class="menu" href="index.html#section4" onclick="document.getElementById('nav-sp').style.display = 'none'">会社概要</a></li>
+          <li><a class="menu" href="index.html#section5" onclick="document.getElementById('nav-sp').style.display = 'none'">お問い合わせ</a></li>     
+        </ul>        
+       </nav>
+    </header>
+
+    <main>
+        <h1>施工実績詳細</h1>
+        <div class="detail-title">
+            <img src="image/施工実績タイトル.png">
+        </div>
+        <div class="detail-img">
+            <img src="image/施工実績画像.png">
+        </div>
+        <div class="detail-text">
+            <p>ナチュラルテイストの内装デザインを活かしつつ、<br>
+                解放感あふれる広々とした空間を実現するため床や壁、天井に <br>
+                温かみのある木材を採用しました。<br>
+                基礎工事と頑丈な骨組みにより、安全性と耐久性を重視しながら、<br>
+                安心して生 活できる住宅に仕上がりました。</p>
+        </div>
+            <dl>
+                <div class="flex">
+                    <dt>施工時期</dt>
+                    <dd>・・・　　2024年8月</dd>
+                </div>
+                <div class="flex">
+                    <dt>所在地</dt>
+                    <dd>・・・　　東京都</dd>
+                </div>
+                <div class="flex">
+                    <dt>建物の種類</dt>
+                    <dd>・・・　　新築住宅</dd>
+                </div>
+                <div class="flex">
+                    <dt>階数</dt>
+                    <dd>・・・　　3階建て</dd>
+                </div>
+            </dl>
+        <h1>内観写真ギャラリー</h1>
+        <div class="detail-flex">
+            <div class="detail-left">
+                <img src="image/イメージ1.png">
+            </div>
+            <div class="detail-right">
+                <img src="image/イメージ2.png">
+            </div>
+        </div>
+        <div class="detail-flex">
+            <div class="detail-left">
+                <img src="image/イメージ3.png">
+            </div>
+            <div class="detail-right">
+                <img src="image/イメージ4.png">
+            </div>
+        </div>
+        <div class="detail-flex">
+            <div class="detail-left">
+                <img src="image/イメージ5.png">
+            </div>
+            <div class="detail-right">
+                <img src="image/イメージ6.png">
+            </div>
+        </div>
+        <div class="detail-flex">
+            <div class="detail-left">
+                <img src="image/イメージ7.png">
+            </div>
+            <div class="detail-right">
+                <img src="image/イメージ8.png">
+            </div>
+        </div>
+
+
+        <div class="topbtn">
+            <a href="index.html#header">
+            <img src="image/TOPボタン.png">
+            </a>
+        </div>
+    </main>
+
+    <footer id="footer">
+        <div class="logo">
+            <img src="image/logo-button.png">
+        </div>
+        <div class="sns">
+            <ul>
+                <li><a href=""><img src="image/Facebook.png"></a></li>
+                <li><a href=""><img src="image/Twitter Bird.png"></a></li>
+                <li><a href=""><img src="image/Instagram.png"></a></li>
+            </ul>  
+        </div>
+        <div class="footer">
+            <ul>
+                <li>運営会社</li>
+                <li>よくあるご質問</li>
+                <li><a href="privacy.html">プライバシーポリシー</a></li>
+                <li>利用規約</li>
+            </ul>
+            <p>&copy;2025 SAMURAIホーム All Rights Reserved.</p>
+        </div>
+        
+    </footer>
+</body>
+</html>
+

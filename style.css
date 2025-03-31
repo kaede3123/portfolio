@@ -1,0 +1,520 @@
+/* PCサイトトップページ */
+html {
+    font-size: 100%;
+    font-family: "Noto Serif JP", serif;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+#header {
+    font-family: "Noto Sans JP" ,sans-serif;
+    background-color: #699D9D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+#header nav ul {
+    display: flex;
+    list-style: none;
+}
+#header nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#header .logo img {
+    margin: 20px 0px 20px 20px;
+}
+#header nav ul li {
+    padding: 0 20px;
+    border-right: solid 1px #FFFFFF;
+    align-items: center;
+}
+#header nav ul li:last-of-type {
+    border: none;
+}
+#header nav img {
+    padding-left: 0;
+    margin-left: -15px;
+    margin-right: 30px;
+    width: 25px;
+    height: 25px;
+}
+.fv img {
+    width: 100%;
+}
+main {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #3f5f5f;
+    text-shadow: 4px 4px 4px#999;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+#section1 h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #3f5f5f;
+    text-shadow: 4px 4px 4px#999;
+} 
+
+.contents-1 p {
+    border: solid 1px #956A2A;
+    width: 90%;
+    padding: 20px 10px;
+}
+.contents-2 p {
+    border: solid 1px #956A2A;
+    width: 90%;
+    padding: 20px 10px;
+}
+.contents-3 p {
+    border: solid 1px #956A2A;
+    width: 90%;
+    padding: 20px 10px;
+}
+.contents-1 {
+    display: flex;
+}
+.contents-2 {
+    display: flex;
+}
+.contents-3 {
+    display: flex;
+}
+.contents-1img img {
+    width: 170px;
+    margin-top: 70px;
+}
+.contents-2img img {
+    width: 170px;
+    margin-top: 70px;
+}
+.contents-3img img {
+    width: 170px;
+    margin-top: 70px;
+}
+.section2-left {
+    display: flex;
+    margin-bottom: 50px;
+}
+.section2-left img {
+    width: 500px;
+}
+.section2-right {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 50px;
+}
+.section2-right img {
+    width: 500px;
+}
+.section2-right:last-child img{
+    width: 250px;
+}
+.section3 {
+    display: flex;
+}
+.news-title {
+    display: flex;
+    justify-content: space-between;
+}
+.news {
+    border: solid 1px #FFF9F0;
+    background-color: #FFF9F0;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 4px 4px 4px #999;
+}
+.date {
+    color: #956A2A;
+}
+.title {
+    background-color: #956A2A;
+    border-radius: 15px;
+    color: #FFFFFF;
+    padding: 0 10px;
+}
+.btn {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 50px;
+}
+.btn img {
+    width: 250px;
+}
+.section4 {
+    display: flex;
+    justify-content: center;
+    background-color: #FFF9F0;
+    margin: 40px;
+    box-shadow: 4px 4px 4px #999;
+    padding: 50px;
+}
+.section4 dt {
+    float: left;
+    padding-top: 10px;
+}
+.section4 dd {
+    margin-left: 200px;
+    padding-top: 10px;
+}
+.section4 dl img {
+    width: 100%;
+}
+#section5 p {
+    font-weight: bold;
+    text-align: center;
+}
+#section5 p span {
+    font-size: 0.875rem;
+    color: #D61C1C;
+}
+.section5 {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    background-color: rgba(105, 157, 157, 0.7);
+    margin: 40px;
+    border-radius: 15px;
+    padding: 50px;
+}
+.section5 span {
+    font-size: 0.875rem;
+    color: #D61C1C;
+}
+.section5 input {
+    font-family: "Noto Serif JP", serif;
+    padding: 10px;
+    border-bottom: solid 1px black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 30px;
+}
+.section5 textarea {
+    font-family: "Noto Serif JP", serif;
+    padding: 10px;
+    border-bottom: solid 1px black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 30px;
+}
+.section5 .center {
+    text-align: center;
+    margin: 50px 0;
+}
+.section5 .center img {
+    width: 250px;
+}
+.topbtn {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: -50px;
+}
+.topbtn img {
+    width: 60%;
+}
+
+#footer {
+    background-color: #493827;
+    color: #FFFFFF;
+}
+#footer .logo {
+    text-align: center;
+}
+#footer .logo img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#footer .sns ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+}
+#footer .sns ul li img {
+    margin: 10px;
+}
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer li {
+    margin-left: 30px;
+}
+.footer ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#footer p {
+    font-size: o.875rem;
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+/* プライバシーポリシー */
+.btn {
+    display: block;
+    text-align: center;
+}
+
+/* 施工実績一覧 */
+.case1 img {
+    width: 500px;
+}
+.case2 img {
+    width: 500px;
+}
+.case3 img {
+    width: 500px;
+}
+.case4 img {
+    width: 500px;
+}
+.case5 img {
+    width: 500px;
+}
+.case6 img {
+    width: 500px;
+}
+.kwskbtn img {
+    width: 250px;
+}
+.case1 {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.case2 {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: row-reverse;
+}
+.case3 {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.case4 {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: row-reverse;
+}
+.case5 {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.case6 {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: row-reverse;
+}
+.contactbtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* thankyouページ */
+.thankyou {
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+}
+.thankyou-text {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.thankyou-btn {
+    text-align: center;
+    margin-bottom: 100px;
+}
+.thankyou-btn img {
+    width: 250px;
+}
+
+/* 施工実績詳細ページ */
+.detail-title img {
+    margin-left: 0;
+    width: 500px;
+}
+.detail-img {
+    text-align: center;
+    margin: 50px auto;
+}
+.detail-img img {
+    width: 500px;
+}
+.detail-text {
+    text-align: center;
+    margin-bottom: 30px;
+}
+dl .flex {
+    display: flex;
+    justify-content: center;
+}
+.detail-flex {
+    display: flex;
+}
+.detail-flex img {
+    width: 400px;
+}
+.detail-left {
+    width: 50%;
+    margin-bottom: 100px;
+}
+.detail-right {
+    text-align: right;
+    width: 50%;
+    margin-top: 100px;
+}
+
+
+
+
+/* SPトップページ */
+@media screen and (max-width: 768px) {
+    #nav-pc {
+        display: none;
+    }
+    #menu-sp {
+        float: right;
+        padding: 0;
+        display: block;
+    }
+    #nav-sp {
+        background-color: #699D9D;
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        display: none;
+        z-index: 100;
+    }
+    #nav-sp ul {
+        padding-left: o;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    #nav-sp li {
+        list-style: none;
+    }
+    #close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    #nav-sp a {
+        display: block;
+    }
+    #nav-sp a:link {
+        color: #FFFFFF;
+    }
+    #nav-sp a:visited {
+        color: #FFFFFF;
+    }
+    #nav-sp a:hover {
+        text-decoration: underline;
+    }
+    #nav-sp a:active {
+        color: #FFFFFF;
+    }
+    #nav-sp .menu {
+        text-decoration: none;
+        display: block;
+        margin: 0 20px;
+        height: 44px;
+        font-size: 16px;
+    }
+
+    .fv {
+        width: 100%;
+    }
+    .section2-left {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .section2-right {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .section3 {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer ul {
+        flex-direction: column;
+    }
+    .footer li {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    /* 施工実績一覧ページ */
+    .case1 {
+        flex-direction: column;
+    }
+    .case2 {
+        flex-direction: column;
+    }
+    .case3 {
+        flex-direction: column;
+    }
+    .case4 {
+        flex-direction: column;
+    }
+    .case5 {
+        flex-direction: column;
+    }
+    .case6 {
+        flex-direction: column;
+    }
+    .kwskbtn {
+        margin-top: 30px;
+    }
+
+    /* 施工実績詳細ページ */
+    .detail-flex {
+        flex-direction: column;
+    }
+    .detail-left {
+        margin-bottom: 0;
+        width: 100%;
+    }
+    .detail-right {
+        margin-bottom: 100px;
+        width: 100%;
+        text-align: right;
+    }
+}
+@media screen and (min-width: 768px) {
+    #menu-sp {
+        display: none;
+    }
+    #nav-sp {
+        display: none; 
+    }  
+}
