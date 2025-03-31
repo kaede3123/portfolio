@@ -471,7 +471,7 @@ dl dd {
         font-size: 1.25rem;
     }
     #section1 .contents p {
-        font-size: 0.875rem;
+        font-size: 0.7rem;
     }
     .section2-left {
         display: flex;
@@ -488,22 +488,22 @@ dl dd {
         flex-direction: column;
     }
     .section3 .news-title {
-        font-size: 0.875rem;
+        font-size: 0.7rem;
     }
     .section3 .news-text {
-        font-size: 0.875rem;
+        font-size: 0.7rem;
     }
     .company-flex {
         display: flex;
     }
     #section4 dt {
-        font-size: 0.875rem;
+        font-size: 0.7rem;
     }
     #section4 dd {
-        font-size: 0.875rem;
+        font-size: 0.7rem;
     }
     #section5 {
-        font-size: 0.875rem;
+        font-size: 0.7rem;
     }
     .footer ul {
         flex-direction: column;
@@ -550,10 +550,10 @@ dl dd {
         text-align: right;
     }
     .detail-text {
-        font-size: 0.875rem;
+        font-size: 0.7rem;
     }
     dl {
-        font-size: 0.875rem;
+        font-size: 0.7rem;
     }
 
     /* thankyouページ */
@@ -561,7 +561,7 @@ dl dd {
         font-size: 1rem;
     }
     .thankyou-text p {
-        font-size: 0.875rem;
+        font-size: 0.7rem;
     }
 }
 @media screen and (min-width: 768px) {
