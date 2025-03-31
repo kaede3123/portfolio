@@ -104,7 +104,7 @@ h1 {
     margin-bottom: 50px;
 }
 .section2-left img {
-    width: 500px;
+    width: 60%;
 }
 .section2-right {
     display: flex;
@@ -112,7 +112,7 @@ h1 {
     margin-bottom: 50px;
 }
 .section2-right img {
-    width: 500px;
+    width: 60%;
 }
 .section2-right:last-child img{
     width: 250px;
@@ -149,23 +149,24 @@ h1 {
 .btn img {
     width: 250px;
 }
-.section4 {
+.company-flex {
     display: flex;
-    justify-content: center;
+}
+#section4 {
     background-color: #FFF9F0;
     margin: 40px;
     box-shadow: 4px 4px 4px #999;
     padding: 50px;
 }
-.section4 dt {
-    float: left;
+#section4 dt {
     padding-top: 10px;
+    width: 20%;
 }
-.section4 dd {
-    margin-left: 200px;
+#section4 dd {
     padding-top: 10px;
+    width: 80%;
 }
-.section4 dl img {
+#section4 dl img {
     width: 100%;
 }
 #section5 p {
@@ -273,22 +274,22 @@ h1 {
 
 /* 施工実績一覧 */
 .case1 img {
-    width: 500px;
+    width: 60%;
 }
 .case2 img {
-    width: 500px;
+    width: 60%;
 }
 .case3 img {
-    width: 500px;
+    width: 60%;
 }
 .case4 img {
-    width: 500px;
+    width: 60%;
 }
 .case5 img {
-    width: 500px;
+    width: 60%;
 }
 .case6 img {
-    width: 500px;
+    width: 60%;
 }
 .kwskbtn img {
     width: 250px;
@@ -356,14 +357,14 @@ h1 {
 /* 施工実績詳細ページ */
 .detail-title img {
     margin-left: 0;
-    width: 500px;
+    width: 60%;
 }
 .detail-img {
     text-align: center;
     margin: 50px auto;
 }
 .detail-img img {
-    width: 500px;
+    width: 60%;
 }
 .detail-text {
     text-align: center;
@@ -373,11 +374,19 @@ dl .flex {
     display: flex;
     justify-content: center;
 }
+dl dt {
+    width: 45%;
+    text-align: right;
+}
+dl dd {
+    width: 55%;
+    text-align: left;
+}
 .detail-flex {
     display: flex;
 }
 .detail-flex img {
-    width: 400px;
+    width: 90%;
 }
 .detail-left {
     width: 50%;
@@ -394,6 +403,9 @@ dl .flex {
 
 /* SPトップページ */
 @media screen and (max-width: 768px) {
+    html {
+        max-width: 600px;
+    }
     #nav-pc {
         display: none;
     }
@@ -401,6 +413,7 @@ dl .flex {
         float: right;
         padding: 0;
         display: block;
+        margin-right: 30px;
     }
     #nav-sp {
         background-color: #699D9D;
@@ -451,6 +464,15 @@ dl .flex {
     .fv {
         width: 100%;
     }
+    h1 {
+        font-size: 1.25rem;
+    }
+    #section1 h2 {
+        font-size: 1.25rem;
+    }
+    #section1 .contents p {
+        font-size: 0.875rem;
+    }
     .section2-left {
         display: flex;
         justify-content: center;
@@ -464,6 +486,24 @@ dl .flex {
     .section3 {
         display: flex;
         flex-direction: column;
+    }
+    .section3 .news-title {
+        font-size: 0.875rem;
+    }
+    .section3 .news-text {
+        font-size: 0.875rem;
+    }
+    .company-flex {
+        display: flex;
+    }
+    #section4 dt {
+        font-size: 0.875rem;
+    }
+    #section4 dd {
+        font-size: 0.875rem;
+    }
+    #section5 {
+        font-size: 0.875rem;
     }
     .footer ul {
         flex-direction: column;
@@ -508,6 +548,20 @@ dl .flex {
         margin-bottom: 100px;
         width: 100%;
         text-align: right;
+    }
+    .detail-text {
+        font-size: 0.875rem;
+    }
+    dl {
+        font-size: 0.875rem;
+    }
+
+    /* thankyouページ */
+    .thankyou-text h2 {
+        font-size: 1rem;
+    }
+    .thankyou-text p {
+        font-size: 0.875rem;
     }
 }
 @media screen and (min-width: 768px) {
