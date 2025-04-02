@@ -337,9 +337,11 @@ h1 {
 
 /* thankyouページ */
 .thankyou {
-    display: block;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 100px;
+    width: 100%;
 }
 .thankyou-text {
     text-align: center;
@@ -496,6 +498,10 @@ dl dd {
     .company-flex {
         display: flex;
     }
+    #section4 {
+        margin-left: 0;
+        margin-right: 0;
+    }
     #section4 dt {
         font-size: 0.7rem;
     }
@@ -504,6 +510,10 @@ dl dd {
     }
     #section5 {
         font-size: 0.7rem;
+    }
+    .section5 {
+        margin-left: 0;
+        margin-right: 0;
     }
     .footer ul {
         flex-direction: column;
@@ -562,6 +572,9 @@ dl dd {
     }
     .thankyou-text p {
         font-size: 0.7rem;
+    }
+    .thankyou {
+        max-width: 600px;
     }
 }
 @media screen and (min-width: 768px) {
