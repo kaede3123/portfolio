@@ -573,8 +573,8 @@ dl dd {
     .thankyou-text p {
         font-size: 0.7rem;
     }
-    .thankyou {
-        max-width: 600px;
+    .thankyou img {
+        width: 300px;
     }
 }
 @media screen and (min-width: 768px) {
